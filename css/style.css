@@ -15,7 +15,7 @@ main {
 #cube-wrapper {
   display: flex;
   flex-wrap: wrap;
-  /*width: 100%;*/
+  width: 60%;
 }
 
 /*my flex items*/
@@ -31,13 +31,18 @@ main {
 
 #personal-info {
   flex: 0 0 66%;
+  height: 33%;
   /*width: 100%;*/
   /*min-width: 400px;
   min-height: 200px;*/
-  background-color: #60224D;
+  background-color: #35BC7A;
   text-align: left;
   box-sizing: border-box;
   padding: 15px 20px;
+}
+
+.photo-wrapper {
+    width: 40%;
 }
 
 article a {
@@ -59,31 +64,31 @@ button[type="contact"] {
 }*/
 
 #profile {
-  background-color: #DB5B22;
+  background-color: #FF9E00;
 }
 
 #experience {
-  background-color: #832F10;
+  background-color: #1E8BC4;
 }
 
 #education {
-  background-color: #2B8528;
+  background-color: #F15A49;
 }
 
 #blog {
-  background-color: #282D82;
+  background-color: #35BC7A;
 }
 
 #social-menu {
-  background-color: #60224D;
+  background-color: #F86925;
 }
 
 #contact {
-  background-color: #DB5B22;
+  background-color: #1E8BC4;
 }
 
 #portfolio {
-  background-color: #832F10;
+  background-color: #F86925;
 }
 
 #credits {
